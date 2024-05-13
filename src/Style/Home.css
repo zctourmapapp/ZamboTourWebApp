@@ -1,0 +1,30 @@
+@import url("../index.css");
+
+.navigator > .header {
+  color: var(--gray);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.signin-button:hover {
+  background-color: var(--yellow);
+}
+
+.container {
+  translate: 25% 25%;
+  row-gap: 20px;
+}
+
+.home > .header {
+  color: var(--orange);
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container > .body {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: var(--gray);
+}

@@ -1,0 +1,36 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #ff9d00c2;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238, 210, 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 /8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  transition: all ease-in-out 1s;
+}
+
+::-webkit-scrollbar-track {
+  background: #eff8f3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
+  transform: scale(2);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
